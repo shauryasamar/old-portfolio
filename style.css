@@ -575,3 +575,259 @@ figure{
 
 }
 
+
+/* ========== MOBILE RESPONSIVE STYLES ========== */
+
+/* Tablets and smaller (max-width: 768px) */
+@media (max-width: 768px) {
+    
+    /* Navbar */
+    .navbar {
+        height: 8vh;
+        flex-wrap: wrap;
+    }
+    
+    .navbar a {
+        font-size: 0.9rem;
+        margin: 0.5vw;
+        padding: 1vh;
+    }
+    
+    .navbar img {
+        height: 3vh;
+    }
+
+    /* Home Section */
+    #Home {
+        height: auto;
+        min-height: 90vh;
+        padding: 2vh 0;
+    }
+    
+    .discrip {
+        flex-direction: column;
+        width: 95vw;
+        height: auto;
+        padding: 3vh 2vw;
+    }
+    
+    .pic {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3vh;
+    }
+    
+    .pic img {
+        width: 40vw;
+        height: 40vw;
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    figcaption {
+        font-size: 2rem;
+    }
+    
+    .para {
+        width: 100%;
+        height: auto;
+    }
+    
+    .abtpara {
+        width: 85vw;
+        font-size: 1.5rem;
+        margin: 2vh;
+        text-align: center;
+    }
+    
+    .para a button {
+        width: 45vw;
+        max-width: 250px;
+        height: 6vh;
+        font-size: 1rem;
+    }
+
+    /* About Section */
+    #aboutme {
+        height: auto;
+        min-height: 90vh;
+        padding: 3vh 0;
+    }
+    
+    .abtdisc {
+        width: 95vw;
+        height: auto;
+        padding: 3vh 2vw;
+    }
+    
+    .sp {
+        margin-top: 2vh;
+    }
+    
+    .abtdisc span {
+        font-size: 2.5rem;
+        padding: 1vh;
+        margin: 1vh 0;
+    }
+    
+    .abtdisc p {
+        font-size: 1.3rem;
+    }
+    
+    /* Disable hover animations on mobile */
+    #dsa:hover, #lag:hover, #fe:hover {
+        animation: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .abtmain button {
+        width: 50vw;
+        max-width: 250px;
+        height: 6vh;
+        font-size: 1.2rem;
+        margin-top: 2vh;
+    }
+
+    /* Work Section */
+    #work {
+        height: auto;
+        min-height: 100vh;
+        padding: 3vh 0;
+    }
+    
+    .prowork {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+        width: 95vw;
+        height: auto;
+        padding: 2vh;
+        gap: 3vh;
+    }
+    
+    figure {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .prowork img {
+        width: 80vw;
+        max-width: 400px;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+    
+    .prowork figcaption {
+        font-size: 0.9rem;
+        margin-top: 1vh;
+        text-align: center;
+    }
+    
+    .head {
+        font-size: 1.5rem;
+        margin-bottom: 2vh;
+    }
+
+    /* Contact Section */
+    #CONTACTS {
+        height: auto;
+        min-height: 100vh;
+        padding: 3vh 0;
+    }
+    
+    .contactmain {
+        width: 95vw;
+        height: auto;
+        padding: 3vh 2vw;
+    }
+    
+    .conthead {
+        font-size: 1.3rem;
+        margin-top: 2vh;
+    }
+    
+    .conthead span {
+        font-size: 1.2rem;
+        padding: 1vh;
+    }
+    
+    .forms form {
+        width: 85vw;
+    }
+    
+    .input {
+        width: 80vw;
+        padding: 1.5vh;
+        font-size: 1rem;
+    }
+    
+    #but {
+        width: 35vw;
+        max-width: 150px;
+        height: 5vh;
+        font-size: 1.1rem;
+    }
+    
+    /* Footer */
+    .foot {
+        width: 95vw;
+        margin-top: 2vh;
+    }
+    
+    .foot footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navi {
+        margin: 2vh 0;
+        text-align: center;
+    }
+    
+    .navig {
+        font-size: 1.3rem;
+    }
+}
+
+/* Mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+    
+    .navbar a {
+        font-size: 0.75rem;
+        padding: 0.5vh;
+        margin: 0.3vw;
+    }
+    
+    .navbar img {
+        height: 2.5vh;
+    }
+    
+    figcaption {
+        font-size: 1.5rem;
+    }
+    
+    .abtpara {
+        font-size: 1.2rem;
+    }
+    
+    .para a button {
+        width: 50vw;
+        font-size: 0.9rem;
+    }
+    
+    .abtdisc span {
+        font-size: 1.8rem;
+    }
+    
+    .abtdisc p {
+        font-size: 1.1rem;
+    }
+    
+    .conthead span:first-child {
+        font-size: 1.5rem;
+    }
+    
+    .conthead span:last-child {
+        font-size: 1rem;
+    }
+}
